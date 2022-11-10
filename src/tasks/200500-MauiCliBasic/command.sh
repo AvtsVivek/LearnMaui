@@ -1,7 +1,7 @@
-cd ../../apps
+cd ../../src/apps
 
 # First get into the correct directory
-cd apps
+cd ./src/apps
 
 # Create a directory 
 mkdir 200500-MauiCliBasic
@@ -22,6 +22,10 @@ Remove-Item ./MauiCliBasic -Recurse
 # dotnet sln add MauiCliBasic.csproj
 
 dotnet build ./MauiCliBasic.csproj
+
+# or, the following, both are same.
+
+dotnet build ./MauiCliBasic.sln
 
 dotnet run --project ./MauiCliBasic.csproj --framework net6.0-windows10.0.19041.0
 
