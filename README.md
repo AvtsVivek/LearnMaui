@@ -13,3 +13,11 @@ C:\Trials\Ex\LearnMaui
 - Now cd into one of the tasks folder and then its sub folders.
 
 ### 
+
+Based on the following tut series
+
+https://www.youtube.com/watch?v=Hh279ES_FNQ
+
+
+https://learn.microsoft.com/en-us/dotnet/maui/get-started/first-app?view=net-maui-7.0&tabs=vswin&pivots=devices-windows
+
